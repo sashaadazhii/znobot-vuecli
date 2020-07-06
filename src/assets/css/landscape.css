@@ -1,0 +1,38 @@
+@media only screen and (max-width: 992px) and (orientation: landscape) {
+  .header-nav .menu-wrapper {
+    display: none; }
+  .header-content {
+    height: calc(100% - 170px); }
+  .slogan .slogan__title {
+    padding: 0;
+    font-family: "Cera Pro Black", sans-serif;
+    font-size: 26px;
+    color: #FFF;
+    text-transform: none; }
+  .slogan .slogan__subtitle {
+    max-width: 100%;
+    padding: 15px 0;
+    font-family: "Cera Pro Regular", sans-serif;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+    text-transform: none; }
+  .accent-text {
+    display: block; } }
+
+@media only screen and (max-width: 768px) and (orientation: landscape) {
+  .header-nav {
+    height: 100px; }
+  .slogan .slogan__title {
+    font-family: "Cera Pro Black", sans-serif;
+    font-size: 24px;
+    color: #FFF;
+    text-transform: none; }
+  .slogan .slogan__subtitle {
+    max-width: 100%;
+    padding: 15px 0;
+    font-family: "Cera Pro Regular", sans-serif;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+    text-transform: none; }
+  .accent-text {
+    display: block; } }
